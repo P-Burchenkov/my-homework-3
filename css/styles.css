@@ -41,6 +41,20 @@ body {
   font-style: normal;
 }
 
+/* CONTAINER */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* SECTION */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* LOGO */
 
 .logo {
@@ -92,17 +106,28 @@ body {
   color: var(--accent-color);
 }
 
+.head-container {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 /* HERO */
 
 .hero {
   background-color: var(--hero-bg);
+  text-align: center;
+}
+
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
@@ -120,7 +145,7 @@ body {
   background-color: var(--accent-color);
   border-color: transparent;
   border-radius: 4px;
-  width: 216px;
+  min-width: 216px;
 }
 
 .button:hover,
@@ -137,6 +162,7 @@ body {
 }
 
 .value-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -155,6 +181,7 @@ body {
 
 .work-title,
 .team-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -165,6 +192,8 @@ body {
 /* TEAM */
 
 .team-member {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -182,6 +211,12 @@ body {
 
 .foot {
   background-color: var(--hero-bg);
+}
+
+/* FOOT-CONTAINER */
+
+.foot-container {
+  padding: 60px 0;
 }
 
 .logo-studio-foot {
@@ -235,9 +270,18 @@ body {
   background-color: var(--accent-color);
 }
 
+/* LOCAL NAVIGATION */
+
+.local-navigation {
+  padding-bottom: 50px;
+  background-break: red;
+}
+
 /* PROGECTS */
 
 .project-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
