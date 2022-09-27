@@ -57,6 +57,10 @@ body {
 
 /* HEAD */
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .head-container {
   display: flex;
 }
@@ -358,6 +362,7 @@ body {
 
 .project-list-item {
   margin: 15px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .project-title {
