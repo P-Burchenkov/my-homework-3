@@ -59,16 +59,11 @@ body {
 
 .head-container {
   display: flex;
-
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 /* LOGO */
 
 .logo {
-  margin-right: 93px;
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -90,6 +85,7 @@ body {
 
 .main-nav-list {
   display: flex;
+  margin-left: 93px;
 }
 
 .main-nav {
@@ -109,6 +105,8 @@ body {
 
 .main-nav-link {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   /* background-color: red; */
 }
@@ -131,6 +129,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.adress-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .adress-link:hover,
@@ -188,6 +191,14 @@ body {
 
 /* VALUES */
 
+.values-list {
+  display: flex;
+}
+
+.value-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .hidden-title {
   display: none;
 }
@@ -210,6 +221,14 @@ body {
 
 /* WORKS */
 
+.works-list {
+  display: flex;
+}
+
+.work-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .work-title,
 .team-title {
   margin-bottom: 50px;
@@ -221,6 +240,14 @@ body {
 }
 
 /* TEAM */
+
+.team-list {
+  display: flex;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .team-member {
   margin-top: 30px;
@@ -247,11 +274,16 @@ body {
 /* FOOT-CONTAINER */
 
 .foot-container {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-studio-foot {
   color: var(--white-color);
+}
+
+.foot-adress {
+  margin-top: 20px;
 }
 
 .foot-adress-fact {
@@ -264,6 +296,8 @@ body {
 }
 
 .foot-adress-contact {
+  margin-top: 9px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -304,11 +338,27 @@ body {
 /* LOCAL NAVIGATION */
 
 .local-navigation {
-  padding-bottom: 50px;
-  background-break: red;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+  padding-bottom: 16px;
+}
+
+.local-nav-item {
+  margin-right: 8px;
 }
 
 /* PROGECTS */
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.project-list-item {
+  margin: 15px;
+}
 
 .project-title {
   margin-top: 20px;
