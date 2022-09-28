@@ -44,7 +44,7 @@ body {
 /* CONTAINER */
 
 .container {
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -145,7 +145,7 @@ header {
   color: var(--accent-color);
 }
 
-.adress-link:last-child {
+.adress-item:last-child {
   margin-left: 50px;
 }
 
@@ -174,7 +174,8 @@ header {
 /* BUTTON HERO */
 
 .button {
-  font-family: Roboto, sans-serif;
+  padding: 10px 32px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -184,6 +185,7 @@ header {
   border-color: transparent;
   border-radius: 4px;
   min-width: 216px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
@@ -233,6 +235,10 @@ header {
   display: flex;
 }
 
+.work-list-link {
+  line-height: 0px;
+}
+
 .work-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -249,8 +255,20 @@ header {
 
 /* TEAM */
 
+.team-section {
+  background-color: var(--btn-col);
+}
+
+.team-list-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-list {
   display: flex;
+  text-align: center;
 }
 
 .team-list-item:not(:last-child) {
@@ -324,7 +342,8 @@ header {
 /* BUTTON */
 
 .btn {
-  font-family: Roboto, sans-serif;
+  padding: 6px 22px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -365,7 +384,9 @@ header {
 }
 
 .project-list-item {
+  /* border-right: 1px solid #eeeeee; */
   border-bottom: 1px solid #eeeeee;
+  /* border-left: 1px solid #eeeeee; */
 }
 
 .project-list-item:not(:nth-child(3n)) {
@@ -391,4 +412,8 @@ header {
   line-height: 1.88;
   letter-spacing: 0.03em;
   columns: var(--secondary-text-color);
+}
+
+.project-card-text {
+  padding: 20px 24px;
 }
