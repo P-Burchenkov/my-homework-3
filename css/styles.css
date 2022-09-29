@@ -48,8 +48,10 @@ body {
 /* CONTAINER */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* SECTION */
@@ -59,7 +61,7 @@ body {
   padding-bottom: 94px;
 }
 
-/* HEAD */
+/* HEADER */
 
 header {
   border-bottom: 1px solid #ececec;
@@ -155,14 +157,11 @@ header {
 
 /* HERO */
 
-.hero {
-  background-color: var(--hero-bg);
-  text-align: center;
-}
-
 .hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--hero-bg);
+  text-align: center;
 }
 
 .hero-title {
@@ -258,8 +257,9 @@ header {
 
 /* TEAM */
 
-.team-section {
+.team-container {
   background-color: var(--btn-col);
+  padding: 94px 15px;
 }
 
 .team-list-item {
@@ -294,17 +294,14 @@ header {
   color: var(--secondary-text-color);
 }
 
-/* FOOT */
-
-.foot {
-  background-color: var(--hero-bg);
-}
+/* FOOTER */
 
 /* FOOT-CONTAINER */
 
 .foot-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--hero-bg);
 }
 
 .logo-studio-foot {
@@ -313,6 +310,7 @@ header {
 
 .foot-adress {
   margin-top: 20px;
+  height: 81px;
 }
 
 .foot-adress-fact {
@@ -386,13 +384,13 @@ header {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100%-2 * 30px) / 3;
+  flex-basis: calc(100%-2 * 36px) / 3;
 }
 
-.project-list-item {
-  /* border-right: 1px solid #eeeeee; */
+.item-container {
+  border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  /* border-left: 1px solid #eeeeee; */
+  border-left: 1px solid #eeeeee;
 }
 
 .project-list-item:not(:nth-child(3n)) {
@@ -422,4 +420,7 @@ header {
 
 .project-card-text {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
